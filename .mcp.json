@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "fatfish-usage": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${CODEBUDDY_PLUGIN_ROOT}/scripts/wb-usage-mcp.mjs"
+      ],
+      "cwd": "${CODEBUDDY_PLUGIN_ROOT}",
+      "env": {},
+      "defer_loading": false
+    }
+  }
+}
