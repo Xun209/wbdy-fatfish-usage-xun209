@@ -1,0 +1,29 @@
+{
+  "name": "fatfish-usage",
+  "version": "1.0.1",
+  "description": "記賬掛件（WorkBuddy 版）：把 WorkBuddy 的額度與逐筆消耗寫成可查的帳本（逐輪明細 + 逐日彙總），並提供 usage_status / usage_today / usage_ledger 三個 MCP 工具，讓 Agent 隨時回答「我今天用了多少、還剩多少」。資料全部來自本機 workbuddy.db（唯讀、不聯網）。",
+  "description_en": "WorkBuddy usage/accounting widget: turns the local session_usage credit records into a queryable ledger (per-turn detail + per-day totals), and exposes usage_status / usage_today / usage_ledger as MCP tools so the agent can always answer \"how much quota did I use today, how much is left\". Reads the local workbuddy.db only (read-only, never networks).",
+  "author": {
+    "name": "fatfish-usage contributors"
+  },
+  "homepage": {
+    "url": null,
+    "type": "none"
+  },
+  "license": "MIT",
+  "keywords": [
+    "workbuddy",
+    "usage",
+    "quota",
+    "tokens",
+    "subscription",
+    "accounting",
+    "ledger",
+    "額度",
+    "用量",
+    "記賬"
+  ],
+  "category": "tool",
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

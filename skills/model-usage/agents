@@ -1,0 +1,4 @@
+interface:
+  display_name: "用量掛件"
+  short_description: "顯示 WorkBuddy 的額度現況與消耗帳本（今日用量、剩餘額度、逐輪明細）。"
+  default_prompt: "我今天用了多少額度？還剩多少？把帳本列給我看。"
